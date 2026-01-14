@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: Tahoma;
+}
+
+#menu {
+    width: 720px;
+    height: 420px;
+    display: flex;
+    background: rgba(10,10,15,0.75);
+    border-radius: 14px;
+    margin: 80px auto;
+}
+
+#sidebar {
+    width: 200px;
+    background: rgba(0,0,0,0.6);
+    padding: 12px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px;
+    margin-bottom: 6px;
+    opacity: 0.6;
+}
+
+.tab.active {
+    opacity: 1;
+    background: rgba(150,90,255,0.5);
+    border-radius: 6px;
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+}
+
+.btn {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+}
+
+.btn.active {
+    background: rgba(150,90,255,0.6);
+}
